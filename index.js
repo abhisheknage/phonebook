@@ -5,7 +5,7 @@ const morgan = require("morgan");
 const Contact = require("./models/contact");
 const cors = require("cors");
 
-app.use(cors());
+// app.use(cors());
 app.use(express.static("./build"));
 app.use(express.json());
 
